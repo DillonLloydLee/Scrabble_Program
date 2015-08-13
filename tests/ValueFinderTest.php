@@ -43,6 +43,16 @@
             $this->assertEquals("2", $result);
         }
 
+        function test_findWordTotal_complexWord() {
+
+            $test_ValueFinder = new ValueFinder;
+            $word_input = "Chicken";
+
+            $result = $test_ValueFinder->findWordTotal($word_input);
+
+            $this->assertEquals("18", $result);
+        }
+
 
     }
 ?>
