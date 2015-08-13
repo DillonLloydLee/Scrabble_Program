@@ -1,21 +1,21 @@
 BDD SPEC:
 
-1.  Objective:
-    Input:
-    Output:
+1.  Objective:  Program returns a value for a single point word.
+    Input:      "a"
+    Output:     "1"
 
-2.  Objective:
-    Input:
-    Output:
+2.  Objective:  Program returns a value for another, less simple letter.
+    Input:      "j"
+    Output:     "8"
 
-3.  Objective:
-    Input:
-    Output:
+3.  Objective:  Program returns a value for a two letter word.
+    Input:      "in"
+    Output:     "2"
 
-4.  Objective:
-    Input:
-    Output:
+4.  Objective:  Program returns a value for a complex word.
+    Input:      "chicken"
+    Output:     "18"
 
-5.  Objective:  
+5.  Objective:
     Input:
     Output:
