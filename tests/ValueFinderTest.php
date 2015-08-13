@@ -23,15 +23,15 @@
             $this->assertEquals("8", $result);
         }
 
-        // function test_findWordTotal_singleLetterCapital() {
-        //
-        //     $test_ValueFinder = new ValueFinder;
-        //     $word_input = "J";
-        //
-        //     $result = $test_ValueFinder->findWordTotal($word_input);
-        //
-        //     $this->assertEquals("8", $result);
-        // }
+        function test_findWordTotal_singleLetterCapital() {
+
+            $test_ValueFinder = new ValueFinder;
+            $word_input = "J";
+
+            $result = $test_ValueFinder->findWordTotal($word_input);
+
+            $this->assertEquals("8", $result);
+        }
 
 
     }
