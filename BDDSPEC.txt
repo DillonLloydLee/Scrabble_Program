@@ -8,14 +8,18 @@ BDD SPEC:
     Input:      "j"
     Output:     "8"
 
-3.  Objective:  Program returns a value for a two letter word.
+3.  Objective:  Program returns a value for capital letter.
+    Input:      "A"
+    Output:     "1"
+
+4.  Objective:  Program returns a value for a two letter word.
     Input:      "in"
     Output:     "2"
 
-4.  Objective:  Program returns a value for a complex word.
+5.  Objective:  Program returns a value for a complex word.
     Input:      "chicken"
     Output:     "18"
 
-5.  Objective:
+6.  Objective:
     Input:
     Output:
