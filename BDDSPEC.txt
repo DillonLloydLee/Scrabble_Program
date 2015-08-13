@@ -1,6 +1,6 @@
 BDD SPEC:
 
-1.  Objective:  Program returns a value for a single point word.
+1.  Objective:  Program returns a value for a single point word, as a string.
     Input:      "a"
     Output:     "1"
 

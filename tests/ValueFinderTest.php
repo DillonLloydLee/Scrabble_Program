@@ -3,14 +3,14 @@
 
     class ValueFinderTest extends PHPUnit_Framework_TestCase {
 
-        function test_findWordTotal_TESTNAME() {
+        function test_findWordTotal_singleLetterSimple() {
 
             $test_ValueFinder = new ValueFinder;
             $word_input = "a";
 
             $result = $test_ValueFinder->findWordTotal($word_input);
 
-            $this->assertEquals("", $result);
+            $this->assertEquals("1", $result);
         }
 
     }
