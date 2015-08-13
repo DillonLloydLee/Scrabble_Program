@@ -18,8 +18,9 @@
             }
 
             $str_output = strval($num_output);
+            $array_output = array($str_output, $word_input);
 
-            return $str_output;
+            return $array_output;
 
         }
     }

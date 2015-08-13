@@ -14,7 +14,7 @@
 
     $app->get("/results", function() use ($app) {
         $this_ValueFinder = new ValueFinder;
-        $this_word = $this_ValueFinder->findWordTotal($_GET["word_input"]);
+        $this_word = $this_ValueFinder->findWordTotal($_GET["word"]);
         return $app["twig"]->render("results.twig", array("value" => $this_word));
     });
 
