@@ -13,5 +13,16 @@
             $this->assertEquals("1", $result);
         }
 
+        function test_findWordTotal_singleLetterComplex() {
+
+            $test_ValueFinder = new ValueFinder;
+            $word_input = "j";
+
+            $result = $test_ValueFinder->findWordTotal($word_input);
+
+            $this->assertEquals("8", $result);
+        }
+
+
     }
 ?>
