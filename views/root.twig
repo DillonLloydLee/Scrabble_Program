@@ -6,7 +6,15 @@
 
     <body>
         <div class="container">
-            <h1>Welcome to Scrabble</h1>
+            <h1>Welcome to the Scrabble Calculator</h1>
+            <p>This calculator will give you the word score for the word you played in Scrabble.</p>
+            <form  action="/results">
+                <div class="form-group">
+                    <label for="word">Input your word:</label>
+                    <input type="text" name="word" id="word" class="form-control" placeholder="SCRABBLE">
+                </div>
+                <button name="submit" class= "btn btn-success">Submit</button>
+            </form>
         </div>
     </body>
 </html>
