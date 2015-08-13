@@ -9,7 +9,7 @@
             $letter_amounts = array(1, 3, 3, 2, 1, 4, 2, 4, 1, 8, 5, 1, 3, 1, 1, 3, 10, 1, 1, 1, 1, 4, 4, 8, 4, 10);
 
             $word_input = strtolower($word_input);
-            $word_array = array($word_input);
+            $word_array = str_split($word_input);
 
             foreach ($word_array as $letter) {
                 $array_value = array_search( $letter, $letters);

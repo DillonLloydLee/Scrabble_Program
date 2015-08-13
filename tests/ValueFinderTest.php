@@ -46,8 +46,3 @@
 
     }
 ?>
-
-
-4.  Objective:  Program returns a value for a two letter word.
-    Input:      "in"
-    Output:     "2"
