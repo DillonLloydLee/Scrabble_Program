@@ -12,14 +12,14 @@
             $word_array = str_split($word_input);
 
             foreach ($word_array as $letter) {
-                $array_value = array_search( $letter, $letters);
+                $array_value = array_search($letter, $letters);
                 $number_value = $letter_amounts[$array_value];
                 $num_output += $number_value;
             }
 
             $str_output = strval($num_output);
 
-            return $num_output;
+            return $str_output;
 
         }
     }
