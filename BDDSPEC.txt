@@ -19,7 +19,3 @@ BDD SPEC:
 5.  Objective:  Program returns a value for a complex word.
     Input:      "chicken"
     Output:     "18"
-
-6.  Objective:
-    Input:
-    Output:

@@ -33,6 +33,21 @@
             $this->assertEquals("8", $result);
         }
 
+        function test_findWordTotal_twoLetterWord() {
+
+            $test_ValueFinder = new ValueFinder;
+            $word_input = "in";
+
+            $result = $test_ValueFinder->findWordTotal($word_input);
+
+            $this->assertEquals("2", $result);
+        }
+
 
     }
 ?>
+
+
+4.  Objective:  Program returns a value for a two letter word.
+    Input:      "in"
+    Output:     "2"
